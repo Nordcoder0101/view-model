@@ -1,0 +1,8 @@
+@using viewModel_fun.Models
+@model AllTheUsers
+
+@foreach (var i in @Model.AllUsers)
+{
+    <p>@i.TheFirstName</p>
+    <p>@i.TheLastName</p>
+}
